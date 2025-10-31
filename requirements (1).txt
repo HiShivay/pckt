@@ -1,0 +1,16 @@
+# Pocket FM Downloader Bot - Requirements
+# Python 3.9+ required
+
+# Telegram Bot Framework
+pyrogram==2.0.106
+TgCrypto==1.2.5
+
+# HTTP Client
+aiohttp==3.9.1
+aiofiles==23.2.1
+
+# Utility Libraries
+python-dotenv==1.0.0
+
+# Optional but recommended
+requests==2.31.0
