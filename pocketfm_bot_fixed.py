@@ -42,15 +42,15 @@ logger = logging.getLogger(__name__)
 class Config:
     """Bot configuration"""
     # Telegram Bot Credentials
-    API_ID = int(os.getenv("API_ID", "0"))
-    API_HASH = os.getenv("API_HASH", "")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+    API_ID = "17760082"  # Get from https://my.telegram.org
+    API_HASH = "c3fc3cd44886967cf3c0e8585b5cad1c"  # Get from https://my.telegram.org
+    BOT_TOKEN = "5066445400:AAEGWQO2Ov6SNqaW5mcPwnkr6bUFatdiKtY"  # Get from @BotFather
 
-    # Owner/Admin User IDs
-    OWNER_IDS = list(map(int, os.getenv("OWNER_IDS", "123456789").split(",")))
+    # Owner/Admin User IDs (for restricted commands)
+    OWNER_IDS = [6116993643]  # Add your Telegram user ID
 
     # Download settings
-    DOWNLOAD_PATH = os.getenv("DOWNLOAD_PATH", "downloads")
+    DOWNLOAD_PATH = "downloads"
     MAX_CONCURRENT_DOWNLOADS = 3
     CHUNK_SIZE = 1024 * 1024  # 1MB chunks
 
