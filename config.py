@@ -13,10 +13,10 @@ class Config:
     """Base configuration"""
 
     # ==================== TELEGRAM ====================
-    API_ID = int(os.getenv("API_ID", "0"))
-    API_HASH = os.getenv("API_HASH", "")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-    OWNER_IDS = list(map(int, os.getenv("OWNER_IDS", "0").split(",")))
+    API_ID = int(os.getenv("API_ID", "17760082"))
+    API_HASH = os.getenv("API_HASH", "c3fc3cd44886967cf3c0e8585b5cad1c")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5066445400:AAEGWQO2Ov6SNqaW5mcPwnkr6bUFatdiKtY")
+    OWNER_IDS = list(map(int, os.getenv("OWNER_IDS", "6116993643").split(",")))
 
     # ==================== FILE PATHS ====================
     DOWNLOAD_PATH = os.getenv("DOWNLOAD_PATH", "downloads")
@@ -55,8 +55,8 @@ class Config:
     }
 
     # ==================== PAGINATION ====================
-    RESULTS_PER_PAGE = 10
-    EPISODES_PER_PAGE = 15
+    RESULTS_PER_PAGE = 20
+    EPISODES_PER_PAGE = 30
 
     # ==================== FEATURES ====================
     ENABLE_MOCK_MODE = True  # Use mock data when API fails
