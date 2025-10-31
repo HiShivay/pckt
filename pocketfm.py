@@ -47,12 +47,12 @@ logger = logging.getLogger(__name__)
 class Config:
     """Bot configuration"""
     # Telegram Bot Credentials
-    API_ID = "YOUR_API_ID"  # Get from https://my.telegram.org
-    API_HASH = "YOUR_API_HASH"  # Get from https://my.telegram.org
-    BOT_TOKEN = "YOUR_BOT_TOKEN"  # Get from @BotFather
+    API_ID = "17760082"  # Get from https://my.telegram.org
+    API_HASH = "c3fc3cd44886967cf3c0e8585b5cad1c"  # Get from https://my.telegram.org
+    BOT_TOKEN = "5066445400:AAEGWQO2Ov6SNqaW5mcPwnkr6bUFatdiKtY"  # Get from @BotFather
 
     # Owner/Admin User IDs (for restricted commands)
-    OWNER_IDS = [123456789]  # Add your Telegram user ID
+    OWNER_IDS = [6116993643]  # Add your Telegram user ID
 
     # Download settings
     DOWNLOAD_PATH = "downloads"
